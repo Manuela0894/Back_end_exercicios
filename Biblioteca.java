@@ -14,26 +14,15 @@ import java.util.Scanner;
 	 }
 	 public void setNomeLivro() {
 		 System.out.println("Informe o nome do livro:");
-		 while(true) {
-		this.nomeLivro = sc.nextLine();
-		if(nomeLivro.matches("[a-zA-Z]+")) {
-			break;
-		}else {
-			System.out.println("Nome do livro inválido! Digite apenas letras.");
-		}
-			}
-		 
-	 }
+		this.nomeLivro = sc.nextLine(); }
+		
 	 public String getNomeAutor() {
 		return nomeAutor;
 	 }
 	 public void setNomeAutor() {
 		 System.out.println("Informe o nome do Autor:");
-		 while(true) {
 			this.nomeAutor = sc.nextLine();
-			if(nomeAutor.matches("[a-zA-Z]")) {
-				System.out.println("Nome do autor inválido! Digite apenas letras.");}
-		}
+		
 	 }
 	 
 	 public int getNumPaginas() {
