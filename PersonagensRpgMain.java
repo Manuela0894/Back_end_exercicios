@@ -5,9 +5,11 @@ public static void main(String[] args) {
 	
 	PersonagensRpg p = new PersonagensRpg();
 	
-	p.escolhaPersonagem();
+	p.setNome();
+	p.escolhaClasse();
 	p.setPoder();
-	p.setVida(0);
+	p.setVida();
+	p.personagemFinal();
 	
 }
 }
